@@ -1,1 +1,52 @@
 @import "tailwindcss";
+
+@theme {
+  --color-ivory: #f8f5ef;
+  --color-ivory-deep: #efe8d9;
+  --color-paper: #fffcf7;
+  --color-navy: #12324c;
+  --color-navy-deep: #0b2438;
+  --color-brand: #2d6fdb;
+  --color-gold: #e08a28;
+  --color-gold-soft: #e8b56a;
+  --color-ink: #2b2a26;
+  --font-display: var(--font-fraunces), "Georgia", serif;
+  --font-sans: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-gold) 28%, white);
+  color: var(--color-navy-deep);
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
