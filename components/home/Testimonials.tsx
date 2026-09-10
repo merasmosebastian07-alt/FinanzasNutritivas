@@ -29,10 +29,10 @@ export function Testimonials() {
                 <p className="font-display text-4xl leading-none text-gold/70">
                   “
                 </p>
-                <blockquote className="mt-4 text-sm leading-relaxed text-navy/80">
+                <blockquote className="mt-4 text-sm leading-relaxed text-ink/80">
                   {item.quote}
                 </blockquote>
-                <figcaption className="mt-8 text-sm font-medium text-navy">
+                <figcaption className="mt-8 text-sm font-medium text-ink">
                   {item.name}
                 </figcaption>
               </figure>

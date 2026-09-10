@@ -4,7 +4,7 @@ import type { FormEvent } from "react";
 import { homeCopy, site } from "@/content/site";
 
 const fieldClass =
-  "mt-2 min-h-12 w-full rounded-md border border-navy/15 bg-ivory px-4 text-base text-navy outline-none transition-colors placeholder:text-navy/35 focus:border-navy/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
+  "mt-2 min-h-12 w-full rounded-md border border-navy/15 bg-ivory px-4 text-base text-ink outline-none transition-colors placeholder:text-ink/35 focus:border-navy/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
 
 export function ContactForm() {
   const { fields, formNote } = homeCopy.contact;
@@ -38,11 +38,11 @@ export function ContactForm() {
       onSubmit={handleSubmit}
       aria-describedby="form-note"
     >
-      <p id="form-note" className="text-[0.7rem] leading-relaxed text-navy/40">
+      <p id="form-note" className="text-[0.7rem] leading-relaxed text-ink/40">
         {formNote}
       </p>
       <div>
-        <label htmlFor="nombre" className="text-sm font-medium text-navy">
+        <label htmlFor="nombre" className="text-sm font-medium text-ink">
           {fields.name}
         </label>
         <input
@@ -55,7 +55,7 @@ export function ContactForm() {
         />
       </div>
       <div>
-        <label htmlFor="correo" className="text-sm font-medium text-navy">
+        <label htmlFor="correo" className="text-sm font-medium text-ink">
           {fields.email}
         </label>
         <input
@@ -68,7 +68,7 @@ export function ContactForm() {
         />
       </div>
       <div>
-        <label htmlFor="telefono" className="text-sm font-medium text-navy">
+        <label htmlFor="telefono" className="text-sm font-medium text-ink">
           {fields.phone}
         </label>
         <input
@@ -81,7 +81,7 @@ export function ContactForm() {
         />
       </div>
       <div>
-        <label htmlFor="mensaje" className="text-sm font-medium text-navy">
+        <label htmlFor="mensaje" className="text-sm font-medium text-ink">
           {fields.message}
         </label>
         <textarea

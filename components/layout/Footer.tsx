@@ -100,7 +100,7 @@ export function Footer() {
 
       <div className="border-t border-navy/10">
         <Container className="py-4">
-          <p className="text-xs text-navy/50">
+          <p className="text-xs text-ink/50">
             © {year} {site.name}. {site.founder}. Todos los derechos reservados.
           </p>
         </Container>

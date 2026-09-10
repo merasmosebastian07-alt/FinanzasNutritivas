@@ -4,9 +4,10 @@
   --color-ivory: #f8f5ef;
   --color-ivory-deep: #efe8d9;
   --color-paper: #fffcf7;
-  --color-navy: #12324c;
-  --color-navy-deep: #0b2438;
-  --color-brand: #2d6fdb;
+  --color-brand: #3894d0;
+  --color-brand-deep: #2e79ab;
+  --color-navy: var(--color-brand);
+  --color-navy-deep: var(--color-brand-deep);
   --color-gold: #e08a28;
   --color-gold-soft: #e8b56a;
   --color-ink: #2b2a26;

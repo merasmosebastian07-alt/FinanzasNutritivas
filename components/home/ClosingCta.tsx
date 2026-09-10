@@ -20,7 +20,7 @@ export function ClosingCta() {
         >
           {title}
         </h2>
-        <p className="mt-6 max-w-xl text-base leading-relaxed text-paper/75 sm:text-lg">
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-paper sm:text-lg">
           {text}
         </p>
         <div className="mt-10">

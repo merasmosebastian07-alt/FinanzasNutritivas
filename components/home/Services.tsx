@@ -18,7 +18,7 @@ export function Services() {
           titleId="servicios-title"
           tone="on-dark"
         />
-        <p className="mt-5 max-w-2xl text-base leading-relaxed text-paper/75">
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-paper">
           {intro}
         </p>
 
@@ -38,7 +38,7 @@ export function Services() {
                     <h4 className="font-display text-2xl text-paper sm:col-span-4">
                       {item.title}
                     </h4>
-                    <p className="text-sm leading-relaxed text-paper/75 sm:col-span-6 sm:text-base">
+                    <p className="text-sm leading-relaxed text-paper sm:col-span-6 sm:text-base">
                       {item.text}
                     </p>
                   </li>
