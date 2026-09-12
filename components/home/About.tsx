@@ -3,7 +3,7 @@ import { ContentImage } from "@/components/ui/ContentImage";
 import { homeCopy, images } from "@/content/site";
 
 export function About() {
-  const { id, eyebrow, title, paragraphs, pullQuote, formation } =
+  const { id, eyebrow, title, paragraphs, origin, pullQuote, formation } =
     homeCopy.about;
 
   return (
@@ -28,7 +28,7 @@ export function About() {
           </p>
           <h2
             id="sobre-title"
-            className="mt-3 max-w-lg font-display text-3xl leading-snug font-semibold text-navy sm:text-4xl"
+            className="mt-3 max-w-2xl font-display text-3xl leading-snug font-semibold text-navy sm:text-4xl"
           >
             {title}
           </h2>
@@ -36,6 +36,14 @@ export function About() {
             {paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
+          </div>
+          <div className="mt-8">
+            <h3 className="font-display text-xl leading-snug font-semibold text-navy sm:text-2xl">
+              {origin.title}
+            </h3>
+            <p className="mt-3 text-base leading-relaxed text-ink/80 sm:text-lg">
+              {origin.text}
+            </p>
           </div>
           <blockquote className="mt-8 border-l-2 border-gold pl-5 font-display text-xl leading-relaxed text-navy">
             {pullQuote}

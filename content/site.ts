@@ -88,21 +88,21 @@ export const homeCopy = {
     caption: "Educación · Ahorro · Hábitos",
   },
   value: {
-    eyebrow: "Una mirada distinta",
+    eyebrow: "Mis Pilares",
     title: "Así como el cuerpo necesita buenos alimentos, las finanzas necesitan buenas decisiones.",
-    text: "El verdadero cambio comienza en la mente y continúa en la cuenta, cuando aprendemos a administrar cada peso que entra a nuestros bolsillos. La educación financiera no es un lujo: es una necesidad.",
+    text: "El verdadero cambio empieza en la mente y continúa en tu cuenta. Automáticamente aprendes a darle orden a cada monto que recibes, sin olvidarte de que la educación financiera no es un lujo, es una necesidad.",
     items: [
       {
         title: "Claridad",
-        text: "Entender tu dinero con un lenguaje sencillo, preciso y cercano, sin tecnicismos innecesarios.",
+        text: "Entender tu dinero con palabras sencillas.",
       },
       {
         title: "Orden",
-        text: "Organizar gastos, presupuesto y ahorro a partir de tu realidad, no de una receta ajena.",
+        text: "Organizar tus finanzas según lo que realmente vives.",
       },
       {
         title: "Transformación",
-        text: "Crear hábitos financieros saludables, paso a paso, que se puedan mantener en el tiempo.",
+        text: "Crear hábitos financieros sanos que se mantengan a largo plazo.",
       },
     ],
   },
@@ -111,9 +111,16 @@ export const homeCopy = {
     eyebrow: "Sobre Audy Paulino",
     title: "Acompañamiento desde la empatía, sin juzgar.",
     paragraphs: [
-      "Soy Audy Paulino, y Finanzas Nutritivas nació para nutrir hábitos financieros saludables. La marca representa transformación, cambios y propósito: ayudar a las personas a administrar su dinero y aplicar ese conocimiento en la vida cotidiana.",
-      "Trabajo con niños, jóvenes y adultos, de forma individual o en sesiones grupales. El acompañamiento parte de tu realidad, con comunicación clara y herramientas prácticas, para que puedas transformar tu vida financiera y personal sin complicaciones.",
+      "Soy Audy Paulino, Licenciada en Comunicación Social, facilitadora de educación financiera y apasionada por enseñar a las personas a transformar su relación con el dinero.",
+      "Creo en el poder de la educación como herramienta para crear libertad, bienestar y oportunidades.",
+      "La educación financiera no se trata solo de números, se trata de decisiones, hábitos y mentalidad.",
+      "Mi compromiso es enseñar de forma sencilla, práctica y cercana, para que cada persona pueda tomar el control de su vida financiera y construir la vida que desea.",
+      "Mi misión es empoderar a niños, jóvenes y adultos con herramientas financieras fáciles, que les permitan tomar mejores decisiones con su dinero, alcanzar metas, vivir con tranquilidad y propósito sin complicarse la vida.",
     ],
+    origin: {
+      title: "¿Cómo nace Finanzas Nutritivas?",
+      text: "Nació desde la necesidad de nutrir y crear hábitos financieros saludables, representando transformación, cambios y propósito, para ayudar a otras personas a administrar bien sus ingresos.",
+    },
     pullQuote:
       "Quiero ayudar a las personas a transformar su vida financiera y personal sin complicaciones, partiendo de su realidad.",
     formation: {
@@ -135,96 +142,96 @@ export const homeCopy = {
   services: {
     eyebrow: "Cómo puedo ayudarte",
     title: "Herramientas prácticas y un plan adaptado a ti.",
-    intro:
-      "Cuando buscas asesoría, escucho tu realidad, analizo tus finanzas, identifico el problema y proponemos juntos soluciones sencillas. No trabajo bolsa de valores.",
     groups: [
       {
-        title: "Productos financieros",
+        title: "Productos de Ahorro y orden",
         items: [
           {
             title: "Organigasto",
-            text: "Para organizar tus gastos de forma simple y cotidiana.",
+            text: "Organizador para distribuir dinero en efectivo por categoría y gastar según tus posibilidades.",
           },
           {
             title: "Carpeta ahorradora",
-            text: "Para construir el hábito del ahorro con un recurso concreto.",
+            text: "Diseñada para ahorrar dinero a tu tiempo.",
           },
           {
             title: "Kit de ahorro",
-            text: "Para dar el primer paso hacia una práctica de ahorro constante.",
+            text: "Un paquete de herramientas básicas para iniciar a ahorrar sin estrés y constantemente.",
           },
           {
             title: "Reto de ahorro",
-            text: "Para sostener el ahorro con un objetivo claro y alcanzable.",
+            text: "Un desafío para motivarte a ahorrar dinero sin morir en el intento, a tu ritmo, paso a paso sin necesitar mucho.",
           },
           {
             title: "Alcancía",
-            text: "Para hacer visible el hábito de guardar, un peso a la vez.",
+            text: "Tu mejor aliada para crear disciplina, guardar monedas o billetes y hacer visible el hábito.",
           },
           {
             title: "Sobres financieros",
-            text: "Para separar el dinero según tus prioridades, con método y calma.",
+            text: "Método sencillo donde puedes dividir tus ingresos en sobres etiquetados según tus prioridades de gastos, metas y ahorro.",
           },
         ],
       },
       {
-        title: "Paquete de asesoría",
+        title: "Asesoría y planificación",
+        intro:
+          "Acompañamiento personalizado o grupal con estrategias adaptadas a tu realidad con el objetivo de crear orden, constancia y disciplina con tu:",
         items: [
           {
-            title: "Asesoría de ahorro",
-            text: "Para diseñar un camino de ahorro que se ajuste a tu situación.",
+            title: "Ahorro",
+            text: "Práctica financiera para ayudarte a cumplir metas.",
           },
           {
             title: "Presupuesto",
-            text: "Para ordenar ingresos y gastos con un plan realista.",
+            text: "Un plan que organiza tus ingresos y egresos para ver con claridad a dónde va tu dinero.",
           },
           {
             title: "Registro de gastos",
-            text: "Para ver con claridad a dónde se va el dinero y decidir mejor.",
+            text: "El hábito de anotar cada salida de dinero y saber exactamente si gastas por necesidad o deseo.",
           },
         ],
       },
     ],
   },
   identify: {
-    eyebrow: "¿Te identificas con esto?",
-    title: "Estas preguntas son más comunes de lo que parece.",
-    text: "Si alguna resuena, no significa que hayas fallado. Significa que tus finanzas merecen atención, empatía y un plan que parta de tu realidad.",
+    eyebrow: "Preguntas",
+    title: "Estas preguntas son muy comunes.",
+    text: "Si alguna te hace ruido, no te preocupes, es que tus finanzas merecen orden y atención, y un plan sencillo que parta desde tu realidad actual.",
     questions: [
-      "¿Sientes que el dinero entra y no sabes a dónde se va?",
-      "¿Quieres ahorrar, pero no has logrado convertirlo en un hábito?",
-      "¿Tienes metas y necesitas organizarte para alcanzarlas?",
+      "¿Sientes que no sabes a dónde se va tu dinero?",
+      "¿Quieres ahorrar y no sabes por dónde empezar o cómo mantener el hábito?",
+      "¿No tienes metas y necesitas organizarte para alcanzarlas?",
       "¿Quieres aprender a administrar tu dinero sin complicaciones?",
     ],
   },
   process: {
-    eyebrow: "Proceso",
-    title: "Un camino claro, desde tu realidad.",
+    eyebrow: "Etapas de Acompañamiento",
+    title: "Soluciones financieras a tu medida.",
     intro:
-      "La primera conversación es sin costo. Las asesorías pueden ser virtuales o presenciales. El objetivo es que sientas orden, claridad, confianza y la seguridad de que sí puedes transformar tu vida financiera.",
+      "La primera conversación es sin costo. Las asesorías son virtuales o presenciales con un objetivo claro y preciso, que empecemos a tener orden mental, financiero y les dé valor a cada peso que entre a tus bolsillos con claridad, confianza y la seguridad de que transformarás tu vida financiera.",
     steps: [
       {
         title: "Escuchamos tu realidad",
-        text: "Partimos de tu historia, con empatía y sin juicios.",
+        text: "Para entender tu situación económica actual sin juzgar.",
       },
       {
         title: "Analizamos tus finanzas",
-        text: "Miramos juntos lo que está ocurriendo con tu dinero.",
+        text: "Revisar a fondo tu manera de gastar tus ingresos.",
       },
       {
         title: "Identificamos el problema",
-        text: "Encontramos el punto que está trabando tu organización o tus metas.",
+        text: "Detectar el punto exacto de tu desorden financiero y qué frena tus metas.",
       },
       {
-        title: "Creamos un plan de acción",
-        text: "Proponemos soluciones sencillas y un plan adaptado a tus necesidades.",
+        title: "Plan de acción",
+        text: "Diseñar pasos simples para solucionar el problema.",
       },
     ],
   },
   resources: {
     eyebrow: "Recursos",
     title: "Herramientas gratuitas para aplicar lo aprendido.",
-    text: "Estas plantillas están pensadas para que organices tu dinero en la vida cotidiana, a tu ritmo y sin complicaciones.",
+    text: "Estas plantillas están creadas para que organices tu dinero de forma práctica, según tus necesidades y sin complicarte.",
     emptyLabel: "Herramienta gratuita",
     cta: "Descargar plantilla",
     items: [
@@ -246,8 +253,8 @@ export const homeCopy = {
     ],
   },
   testimonials: {
-    eyebrow: "Voces",
-    title: "Palabras de quienes han participado.",
+    eyebrow: "Vivencias",
+    title: "Vivencias.",
     text: "Experiencias compartidas después de los talleres y el acompañamiento, en sus propias palabras.",
     items: [
       {
@@ -304,7 +311,7 @@ export const homeCopy = {
     ],
   },
   closingCta: {
-    eyebrow: "Un primer paso",
+    eyebrow: "Tu primer paso",
     title: "Cada centavo cuenta.",
     text: "La primera conversación es sin costo. Si quieres organizar tu dinero sin complicaciones, este es un buen momento para comenzar.",
     cta: {
@@ -314,7 +321,7 @@ export const homeCopy = {
   },
   contact: {
     eyebrow: "Contacto",
-    title: "Hablemos cuando tú estés listo.",
+    title: "Hablemos cuando estés listo.",
     text: "WhatsApp es el medio principal. También puedes llamar, escribir al correo o encontrarme en Instagram, Facebook y TikTok como @finanzasnutritivas.",
     formNote:
       "WhatsApp es el canal principal. Al enviar, se abrirá WhatsApp con tu mensaje para completar el contacto.",

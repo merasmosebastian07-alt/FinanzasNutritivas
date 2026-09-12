@@ -16,7 +16,7 @@ export function SectionHeading({
   const onDark = tone === "on-dark";
 
   return (
-    <div className="max-w-2xl">
+    <div className="max-w-3xl">
       <p
         className={
           onDark

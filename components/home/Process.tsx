@@ -19,10 +19,10 @@ export function Process() {
           text={intro}
         />
 
-        <ol className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <ol className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {steps.map((step, index) => (
             <li key={step.title}>
-              <p className="font-display text-4xl text-brand/80">
+              <p className="font-display text-4xl text-gold">
                 {String(index + 1).padStart(2, "0")}
               </p>
               <h3 className="mt-4 font-display text-xl text-navy">{step.title}</h3>

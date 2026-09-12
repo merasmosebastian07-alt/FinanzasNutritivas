@@ -28,7 +28,7 @@ export function Identify() {
             {questions.map((question) => (
               <li
                 key={question}
-                className="border-l-2 border-gold/70 pl-4 font-display text-lg leading-snug text-navy sm:pl-5 sm:text-xl lg:text-2xl"
+                className="border-l-2 border-gold/70 pl-4 font-display text-lg leading-relaxed text-navy sm:pl-5 sm:text-xl lg:text-2xl lg:leading-snug"
               >
                 {question}
               </li>
