@@ -4,7 +4,7 @@ export const site = {
   tagline: "Cada centavo cuenta.",
   description:
     "Educación financiera con Audy Paulino: ahorro, presupuesto, organización y hábitos para transformar tu vida financiera, un peso a la vez.",
-  locale: "es",
+  locale: "es-DO",
   email: "paulinoudy@hotmail.com",
   phone: {
     display: "1-809-931-1031",
@@ -26,7 +26,7 @@ export const site = {
   },
   navigation: [
     { href: "#inicio", label: "Inicio" },
-    { href: "#sobre-nosotros", label: "Sobre nosotros" },
+    { href: "#sobre-nosotros", label: "Sobre Audy" },
     { href: "#servicios", label: "Servicios" },
     { href: "#recursos", label: "Recursos" },
     { href: "#preguntas-frecuentes", label: "Preguntas frecuentes" },
@@ -325,6 +325,8 @@ export const homeCopy = {
     text: "WhatsApp es el medio principal. También puedes llamar, escribir al correo o encontrarme en Instagram, Facebook y TikTok como @finanzasnutritivas.",
     formNote:
       "WhatsApp es el canal principal. Al enviar, se abrirá WhatsApp con tu mensaje para completar el contacto.",
+    privacyNote:
+      "Al enviar, tus datos se abrirán en WhatsApp para que Audy pueda contactarte. Este sitio no almacena la información enviada.",
     fields: {
       name: "Nombre",
       email: "Correo electrónico",

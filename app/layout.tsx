@@ -3,8 +3,10 @@ import type { ReactNode } from "react";
 import { Fraunces, Source_Sans_3 } from "next/font/google";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { SkipLink } from "@/components/ui/SkipLink";
-import { images, site } from "@/content/site";
+import { site } from "@/content/site";
+import { getSiteUrl } from "@/lib/site-url";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -19,14 +21,21 @@ const sourceSans = Source_Sans_3({
   display: "swap",
 });
 
-const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
-  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-  : process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+const siteUrl = getSiteUrl();
+
+const title = "Finanzas Nutritivas | Audy Paulino";
+const ogImage = {
+  url: "/og/opengraph.jpg",
+  width: 1200,
+  height: 630,
+  alt: "Finanzas Nutritivas · Audy Paulino. Cada centavo cuenta.",
+  type: "image/jpeg",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Finanzas Nutritivas | Audy Paulino",
+    default: title,
     template: `%s | ${site.name}`,
   },
   description: site.description,
@@ -42,9 +51,17 @@ export const metadata: Metadata = {
   ],
   applicationName: site.name,
   authors: [{ name: site.founder }],
+  creator: site.founder,
+  alternates: {
+    canonical: "/",
+  },
   icons: {
-    icon: [{ url: site.logo.src, type: "image/jpeg" }],
-    apple: site.logo.src,
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32 48x48" },
+      { url: "/icons/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/icons/icon-192.png", type: "image/png", sizes: "192x192" },
+    ],
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }],
   },
   robots: {
     index: true,
@@ -53,21 +70,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_DO",
+    url: "/",
     siteName: site.name,
-    title: "Finanzas Nutritivas | Audy Paulino",
+    title,
     description: site.description,
-    images: [
-      {
-        url: images.heroPrimary.src,
-        alt: images.heroPrimary.alt,
-      },
-    ],
+    images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Finanzas Nutritivas | Audy Paulino",
+    title,
     description: site.description,
-    images: [images.heroPrimary.src],
+    images: [ogImage],
   },
 };
 
@@ -78,6 +91,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={`${fraunces.variable} ${sourceSans.variable} h-full`}
     >
       <body className="min-h-full bg-ivory font-sans text-ink antialiased">
+        <JsonLd />
         <SkipLink />
         <Header />
         {children}

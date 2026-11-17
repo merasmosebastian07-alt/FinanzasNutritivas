@@ -7,7 +7,7 @@ const fieldClass =
   "mt-2 min-h-12 w-full rounded-md border border-navy/15 bg-ivory px-4 text-base text-ink outline-none transition-colors placeholder:text-ink/35 focus:border-navy/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
 
 export function ContactForm() {
-  const { fields, formNote } = homeCopy.contact;
+  const { fields, formNote, privacyNote } = homeCopy.contact;
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -41,6 +41,7 @@ export function ContactForm() {
       <p id="form-note" className="text-[0.7rem] leading-relaxed text-ink/40">
         {formNote}
       </p>
+      <p className="text-sm leading-relaxed text-ink/70">{privacyNote}</p>
       <div>
         <label htmlFor="nombre" className="text-sm font-medium text-ink">
           {fields.name}

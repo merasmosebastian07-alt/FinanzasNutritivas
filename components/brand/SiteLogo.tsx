@@ -26,8 +26,8 @@ export function SiteLogo({ className, size = "header" }: SiteLogoProps) {
         className={cn(
           "w-auto object-contain object-left mix-blend-multiply",
           size === "header"
-            ? "h-[5.75rem] sm:h-[6.5rem] lg:h-[7.5rem]"
-            : "h-[5.25rem] sm:h-[6rem]",
+            ? "h-[4.75rem] sm:h-[6.25rem] lg:h-[7.5rem]"
+            : "h-[4.5rem] sm:h-[6rem]",
         )}
         priority={size === "header"}
       />
