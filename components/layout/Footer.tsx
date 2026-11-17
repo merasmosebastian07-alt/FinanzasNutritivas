@@ -1,4 +1,5 @@
 import { SiteLogo } from "@/components/brand/SiteLogo";
+import { SocialLinks } from "@/components/brand/SocialLinks";
 import { Container } from "@/components/ui/Container";
 import { homeCopy, site } from "@/content/site";
 
@@ -68,20 +69,7 @@ export function Footer() {
         <div className="space-y-8">
           <div>
             <p className="text-sm font-semibold">{socialsLabel}</p>
-            <ul className="mt-4 space-y-2">
-              {site.socials.map((item) => (
-                <li key={item.href}>
-                  <a
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-navy/75 hover:text-navy focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold"
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <SocialLinks />
           </div>
           {site.legal.length > 0 ? (
             <div>
